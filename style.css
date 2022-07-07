@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    margin: 0%;
 }
 
 h1 {
@@ -13,11 +14,13 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 10%;
+    padding-right: 50px;
 }
 
 .half-width img {
@@ -36,4 +39,13 @@ section {
 .top-banner {
     background-image: url(BG/imagesmi.jpg);
     background-repeat: no-repeat;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
 }
